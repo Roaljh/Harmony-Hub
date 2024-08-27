@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarmonyHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    
+    
+<!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="matemasie-regular">
+                Harmony Hub
+                <img src="Images/Logo-removebg-preview.png" alt="Harmony Hub Logo" class="header-logo">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#communities">Communities</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="logo-text-inline">
+                <h1 class="matemasie-regular">Harmony Hub</h1>
+                <div class="logo">
+                    <img src="Images/Logo-removebg-preview.png" alt="HarmonyHub Logo">
+                </div>
+            </div>
+            <h1>Join the Community Where Passion Meets Innovation</h1>
+            <p>Connect, Engage, and Grow with Like-Minded Individuals</p>
+            <div class="cta-buttons">
+                <a href="signup.html" class="btn">Join Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--Explore communities-->
+    <section id="community-carousel" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Foodies.webp" alt="Foodies">
+                    <div class="caption">
+                        <h5>Foodies</h5>
+                        <p>Discover the best food experiences.</p>
+                        <a href="#foodies-explore" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Artist.webp" alt="Art">
+                    <div class="caption">
+                        <h5>Art</h5>
+                        <p>Explore the creative world of artists.</p>
+                        <a href="art-community.html" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Religious_Spiritual.webp" alt="Spiritual">
+                    <div class="caption">
+                        <h5>Spiritual</h5>
+                        <p>Connect with spiritual and religious communities.</p>
+                        <a href="#spiritual-explore" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Bookworms.webp" alt="Readers">
+                    <div class="caption">
+                        <h5>Readers</h5>
+                        <p>Dive into the world of books.</p>
+                        <a href="#bookworms-explore" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Entrepreneurs.webp" alt="Entrepreneur">
+                    <div class="caption">
+                        <h5>Entrepreneur</h5>
+                        <p>Connect with entrepreneurs and business minds.</p>
+                        <a href="#entrepreneur-explore" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Foodies.webp" alt="Foodies">
+                    <div class="caption">
+                        <h5>Foodies</h5>
+                        <p>Discover the best food experiences.</p>
+                        <a href="#foodies-explore" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <img src="Images/Artist.webp" alt="Art">
+                    <div class="caption">
+                        <h5>Art</h5>
+                        <p>Explore the creative world of artists.</p>
+                        <a href="art-community.html" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel Controls -->
+        <a class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="carousel-control next" onclick="moveSlide(1)">&#10095;</a>
+    </section>
+
+    <!--what's there for creator-->
+    <section class="creator-highlight">
+        <div class="container">
+            <h2>Why Create on HarmonyHub?</h2>
+            <p>Explore the powerful features and vibrant community that make HarmonyHub the perfect place for creators to thrive.</p>
+    
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="Images/tools.png" alt="Powerful Tools">
+                    <h3>Powerful Tools</h3>
+                    <p>Create, manage, and monetize your content with ease using our comprehensive set of tools.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Images/engaged.png" alt="Engaged Community">
+                    <h3>Engaged Community</h3>
+                    <p>Connect with like-minded individuals who share your passion and support your growth.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Images/insight_analytics.png" alt="Insights & Analytics">
+                    <h3>Insights & Analytics</h3>
+                    <p>Gain valuable insights into your audience and optimize your content for better engagement.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Images/Customization.png" alt="Customization Options">
+                    <h3>Customization Options</h3>
+                    <p>Personalize your space to reflect your unique brand and connect with your audience.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Images/marketing_support.png" alt="Marketing Support">
+                    <h3>Marketing Support</h3>
+                    <p>Access to tools and guidance for effectively promoting your content and expanding your reach.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Images/collaboration.png" alt="Collaboration Opportunities">
+                    <h3>Collaboration Opportunities</h3>
+                    <p>Connect with other talented creators, collaborate on projects, and grow together.</p>
+                </div>
+            </div>
+    
+            <div class="cta-buttons">
+                <a href="signup.html" class="btn btn-secondary">Join Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonial-carousel" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <div class="testimonial-content">
+                    <img src="Images/user1.webp" alt="User 1" class="testimonial-avatar">
+                    <blockquote>"HarmonyHub has transformed how I connect with my audience. The tools are amazing, and the community is so supportive!"</blockquote>
+                    <p class="testimonial-user">- Jane Doe, Artist</p>
+                    <img src="Images/4_star_rating.png" alt="4 star rating" class="rating">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="testimonial-content">
+                    <img src="Images/user2.webp" alt="User 2" class="testimonial-avatar">
+                    <blockquote>"The insights and analytics have been a game-changer for my business. I can see exactly what works and what doesn't."</blockquote>
+                    <p class="testimonial-user">- John Smith, Entrepreneur</p>
+                    <img src="Images/5_star_rating.png" alt="5 star rating" class="rating">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="testimonial-content">
+                    <img src="Images/user3.webp" alt="User 3" class="testimonial-avatar">
+                    <blockquote>"I love the customization options. My page truly feels like my own space where I can express my creativity."</blockquote>
+                    <p class="testimonial-user">- Michael Lee, Musician</p>
+                    <img src="Images/5_star_rating.png" alt="5 star rating" class="rating">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="testimonial-content">
+                    <img src="Images/user4.webp" alt="User 4" class="testimonial-avatar">
+                    <blockquote>"The collaboration opportunities have allowed me to connect with other creators and grow my audience significantly."</blockquote>
+                    <p class="testimonial-user">- Emily Johnson, Content Creator</p>
+                    <img src="Images/4_star_rating.png" alt="4 star rating" class="rating">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="testimonial-content">
+                    <img src="Images/user1.webp" alt="User 1" class="testimonial-avatar">
+                    <blockquote>"HarmonyHub has transformed how I connect with my audience. The tools are amazing, and the community is so supportive!"</blockquote>
+                    <p class="testimonial-user">- Jane Doe, Artist</p>
+                    <img src="Images/4_star_rating.png" alt="4 star rating" class="rating">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="testimonial-content">
+                    <img src="Images/user2.webp" alt="User 2" class="testimonial-avatar">
+                    <blockquote>"The insights and analytics have been a game-changer for my business. I can see exactly what works and what doesn't."</blockquote>
+                    <p class="testimonial-user">- John Smith, Entrepreneur</p>
+                    <img src="Images/5_star_rating.png" alt="5 star rating" class="rating">
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel Dots -->
+        <div class="carousel-dots">
+            <span class="dot" onclick="moveTestimonialSlide(0)"></span>
+            <span class="dot" onclick="moveTestimonialSlide(1)"></span>
+            <span class="dot" onclick="moveTestimonialSlide(2)"></span>
+            <span class="dot" onclick="moveTestimonialSlide(3)"></span>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Join the Community?</h2>
+            <p>Sign up today and start your journey with HarmonyHub.</p>
+            <div class="cta-buttons">
+                <a href="signup.html" class="btn">Join Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <img src="Images/Logo-removebg-preview.png" alt="HarmonyHub Logo" class="footer-logo">
+            <p class="dancing-script-roaljh">HarmonyHub is the place where passion meets innovation. Join us and connect with like-minded individuals.</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#communities">Communities</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><img src="Images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="Images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="Images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="Images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <p class="footer-info">Email: contact@harmonyhub.com | Phone: +123 456 7890</p>
+            <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

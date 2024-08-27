@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Signup - HarmonyHub</title>
+    <link rel="stylesheet" href="complete-signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section with Disabled Links -->
+    <header>
+        <div class="container header-container">
+            <h1 class="matemasie-regular">
+                Harmony Hub
+                <img src="Images/Logo-removebg-preview.png" alt="Harmony Hub Logo" class="header-logo">
+            </h1>
+            <nav>
+                <ul>
+                    <li><span class="disabled-link">Home</span></li>
+                    <li><span class="disabled-link">About</span></li>
+                    <li><span class="disabled-link">Communities</span></li>
+                    <li><span class="disabled-link">Blog</span></li>
+                    <li><span class="disabled-link">Contact</span></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Username and Genre Selection Section -->
+    <section class="signup-complete-section">
+        <div class="container">
+            <div class="signup-complete-box">
+                <h2>Complete Your Signup</h2>
+                <form action="dashboard.html" method="post">
+                    <!-- Username Selection -->
+                    <div class="input-group">
+                        <label for="username">Choose a Username</label>
+                        <input type="text" id="username" name="username" placeholder="Enter a unique username" required>
+                        <p class="username-hint">Your username should be unique and will be visible to other users.</p>
+                        <span id="username-status"></span>
+                    </div>
+
+                    <!-- Genre Selection -->
+                    <div class="genre-selection">
+                        <h2 class="nerko-one-regular">Select Your Favorite Genres</h2>
+                        <p>Select up to 5 genres to personalize your dashboard.</p>
+                        <div class="genre-options">
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Art">
+                                <img src="Images/palette.png" alt="Icon">
+                                <span>Art</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Music">
+                                <img src="Images/musical-notes.png" alt="Icon">
+                                <span>Music</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Literature">
+                                <img src="Images/books.png" alt="Icon">
+                                <span>Literature</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Technology">
+                                <img src="Images/technology.png" alt="Icon">
+                                <span>Technology</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Food">
+                                <img src="Images/burger.png" alt="Icon">
+                                <span>Food</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Travel">
+                                <img src="Images/travel-luggage.png" alt="Icon">
+                                <span>Travel</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Health & Fitness">
+                                <img src="Images/dumbbell.png" alt="Icon">
+                                <span>Health & Fitness</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Photography">
+                                <img src="Images/camera.png" alt="Icon">
+                                <span>Photography</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Fashion">
+                                <img src="Images/fashion.png" alt="Icon">
+                                <span>Fashion</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Gaming">
+                                <img src="Images/game-console.png" alt="Icon">
+                                <span>Gaming</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Film & TV">
+                                <img src="Images/smart-tv.png" alt="Icon">
+                                <span>Film & TV</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Entrepreneurship">
+                                <img src="Images/entrepreneurship.png" alt="Icon">
+                                <span>Entrepreneurship</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Science">
+                                <img src="Images/chemistry.png" alt="Icon">
+                                <span>Science</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Spirituality & Religion">
+                                <img src="Images/meditation.png" alt="Icon">
+                                <span>Spirituality & Religion</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="DIY & Crafts">
+                                <img src="Images/diy.png" alt="Icon">
+                                <span>DIY & Crafts</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Automotive">
+                                <img src="Images/automotive.png" alt="Icon">
+                                <span>Automotive</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Education">
+                                <img src="Images/graduation.png" alt="Icon">
+                                <span>Education</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Environment & Sustainability">
+                                <img src="Images/landscape.png" alt="Icon">
+                                <span>Environment & Sustainability</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Parenting">
+                                <img src="Images/family.png" alt="Icon">
+                                <span>Parenting</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Animals & Pets">
+                                <img src="Images/pets.png" alt="Icon">
+                                <span>Animals & Pets</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="History">
+                                <img src="Images/history.png" alt="Icon">
+                                <span>History</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Politics & Society">
+                                <img src="Images/politics.png" alt="Icon">
+                                <span>Politics & Society</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Hobbies">
+                                <img src="Images/hobby.png" alt="Icon">
+                                <span>Hobbies</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Writing & Blogging">
+                                <img src="Images/blog.png" alt="Icon">
+                                <span>Writing & Blogging</span>
+                            </label>
+                            <label class="genre-option">
+                                <input type="checkbox" name="genres" value="Language Learning">
+                                <img src="Images/languages.png" alt="Icon">
+                                <span>Language Learning</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!--we can add more genre as we want but later-->
+
+                    <div class="cta-buttons">
+                        <button type="submit" class="btn btn-primary">Complete Profile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section with Disabled Links -->
+    <footer>
+        <div class="container">
+            <img src="Images/Logo-removebg-preview.png" alt="HarmonyHub Logo" class="footer-logo">
+            <p class="dancing-script-roaljh">HarmonyHub is the place where passion meets innovation. Join us and connect with like-minded individuals.</p>
+            <nav>
+                <ul>
+                    <li><span class="disabled-link">Home</span></li>
+                    <li><span class="disabled-link">About</span></li>
+                    <li><span class="disabled-link">Communities</span></li>
+                    <li><span class="disabled-link">Blog</span></li>
+                    <li><span class="disabled-link">Contact</span></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <span class="disabled-link"><img src="Images/facebook.png" alt="Facebook"></span>
+                <span class="disabled-link"><img src="Images/twitter.png" alt="Twitter"></span>
+                <span class="disabled-link"><img src="Images/instagram.png" alt="Instagram"></span>
+                <span class="disabled-link"><img src="Images/linkedin.png" alt="LinkedIn"></span>
+            </div>
+            <p class="footer-info">Email: contact@harmonyhub.com | Phone: +123 456 7890</p>
+            <p><span class="disabled-link">Privacy Policy</span> | <span class="disabled-link">Terms of Service</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>

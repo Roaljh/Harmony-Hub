@@ -1,0 +1,131 @@
+body {
+    font-family: 'Ariel', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    background-color: #111;
+    padding: 10px 20px;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+}
+
+.header-logo {
+    height: 70px;
+    vertical-align: middle;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.welcome-section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content-section, .communities-section {
+    padding: 40px 0;
+}
+
+.content-grid, .community-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content-item, .community-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px); /* Three items per row */
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover img {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}

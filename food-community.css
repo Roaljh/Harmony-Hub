@@ -1,0 +1,150 @@
+body {
+    font-family: 'Ariel', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles (Consistent with the main page) */
+header {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+}
+
+.header-logo {
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: rgb(72, 155, 194); /* Add a hover effect */
+    border-radius: 5px;
+}
+
+header:hover {
+    box-shadow: 0 6px 12px ggba(0, 0, 0, 0.2);
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.fixed-footer .btn {
+    color: white;
+    text-decoration: underline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover img {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}

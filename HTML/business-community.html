@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrepreneur Community - HarmonyHub</title>
+    <link rel="stylesheet" href="/Harmony-Hub/CSS/business-community.css">
+    <link rel="stylesheet" href="/Harmony-Hub/CSS/header.css">
+    <link rel="stylesheet" href="/Harmony-Hub/CSS/body.css">
+    <link rel="stylesheet" href="/Harmony-Hub/CSS/fonts.css">
+    <link rel="stylesheet" href="/Harmony-Hub/CSS/fixed-footer.css">
+    <link rel="stylesheet" href="/Harmony-Hub/CSS/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section (Reused from the main page) -->
+    <header>
+        <div class="container">
+            <h1 class="matemasie-regular">
+                Harmony Hub
+                <img src="/Harmony-Hub/src/Images/Logo-removebg-preview.png" alt="Harmony Hub Logo" class="header-logo">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="/Harmony-Hub/HTML/landing-page.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#communities">Communities</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1>Empower Your Entrepreneurial Journey</h1>
+            <p>Discover resources, connect with mentors, and grow your business.</p>
+            <a href="/Harmony-Hub/HTML/signup.html" class="btn hero-btn">Get Started</a>
+        </div>
+    </section>
+    
+    <section class="success-stories-section">
+        <div class="container">
+            <h2>Startup Success Stories</h2>
+            <div class="stories-grid">
+                <div class="story-item">
+                    <img src="/Harmony-Hub/src/Images/user3.webp" alt="Startup Success 1">
+                    <h4>Rohit Nandha - Tech Innovator</h4>
+                    <p>From a small idea to a thriving tech company, Rohit's journey is a testament to the power of perseverance.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Read More</a>
+                </div>
+                <div class="story-item">
+                    <img src="/Harmony-Hub/src/Images/user5.webp" alt="Startup Success 2">
+                    <h4>Vrushabh Patel - E-commerce Pioneer</h4>
+                    <p>Learn how Vrushabh built a leading e-commerce platform from scratch, disrupting the industry.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Read More</a>
+                </div>
+                <div class="story-item">
+                    <img src="/Harmony-Hub/src/Images/user6.webp" alt="Startup Success 3">
+                    <h4>Anjali Lakhani - Social Entrepreneur</h4>
+                    <p>Anjali's mission-driven approach has not only brought her success but also created a positive social impact.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="resources-section">
+        <div class="container">
+            <h2>Essential Resources and Tools</h2>
+            <div class="filters">
+                <select id="phase-filter">
+                    <option value="all">All Phases</option>
+                    <option value="startup">Startup</option>
+                    <option value="growth">Growth</option>
+                    <option value="scaling">Scaling</option>
+                </select>
+                <select id="industry-filter">
+                    <option value="all">All Industries</option>
+                    <option value="tech">Tech</option>
+                    <option value="ecommerce">E-commerce</option>
+                    <option value="services">Services</option>
+                </select>
+                <select id="tool-filter">
+                    <option value="all">All Tools</option>
+                    <option value="business-plan">Business Plan</option>
+                    <option value="funding">Funding</option>
+                    <option value="marketing">Marketing</option>
+                </select>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-item" data-phase="startup" data-industry="tech" data-tool="business-plan">
+                    <h4>Business Plan Template</h4>
+                    <p>Get started with this comprehensive business plan template tailored for tech startups.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Download</a>
+                </div>
+                <div class="resource-item" data-phase="growth" data-industry="ecommerce" data-tool="funding">
+                    <h4>Funding Guide for E-commerce</h4>
+                    <p>Learn how to secure funding to take your e-commerce business to the next level.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Read More</a>
+                </div>
+                <div class="resource-item" data-phase="scaling" data-industry="services" data-tool="marketing">
+                    <h4>Marketing Strategies for Service Businesses</h4>
+                    <p>Explore proven marketing strategies that will help scale your service-based business.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Explore</a>
+                </div>
+                <!-- Add more resource items as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section class="mentorship-section">
+        <div class="container">
+            <h2>Mentorship and Networking</h2>
+            <div class="mentorship-grid">
+                <div class="mentor-item">
+                    <img src="/Harmony-Hub/src/business/sarah-lee.webp" alt="Mentor 1">
+                    <h4>Sarah Lee</h4>
+                    <p>Expert in Tech Startups</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Book a Session</a>
+                </div>
+                <div class="mentor-item">
+                    <img src="/Harmony-Hub/src/business/david-chen.webp" alt="Mentor 2">
+                    <h4>David Chen</h4>
+                    <p>Marketing Guru</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Book a Session</a>
+                </div>
+                <div class="mentor-item">
+                    <img src="/Harmony-Hub/src/business/linda-adams.webp" alt="Mentor 3">
+                    <h4>Linda Adams</h4>
+                    <p>Funding and Investment Expert</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Book a Session</a>
+                </div>
+            </div>
+            <div class="networking-events">
+                <h3>Upcoming Networking Events</h3>
+                <div class="event-item">
+                    <h4>Virtual Networking for Tech Entrepreneurs</h4>
+                    <p>Join us for an evening of networking with tech industry leaders and fellow entrepreneurs.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Join Now</a>
+                </div>
+                <div class="event-item">
+                    <h4>Pitch Night</h4>
+                    <p>Present your startup to a panel of investors and get valuable feedback.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="workshops-section">
+        <div class="container">
+            <h2>Upcoming Workshops and Webinars</h2>
+            <div class="workshops-grid">
+                <div class="workshop-item">
+                    <h4>Building a Scalable Business Model</h4>
+                    <p>Learn from industry experts how to create a business model that scales.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Sign Up</a>
+                </div>
+                <div class="workshop-item">
+                    <h4>Digital Marketing Strategies for Startups</h4>
+                    <p>Explore the latest digital marketing strategies to grow your startup.</p>
+                    <a href="/Harmony-Hub/HTML/signup.html" class="btn">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="signup-cta-section">
+        <div class="container">
+            <p>Join our entrepreneur community and take your business to the next level. <a href="/Harmony-Hub/HTML/signup.html" class="btn">Sign up now</a> to explore more!</p>
+        </div>
+    </section>
+    
+    
+    
+
+    <!--fixed footer part-->
+    <div class="fixed-footer">
+        <p>Join HarmonyHub to explore more...! <a href="/Harmony-Hub/HTML/signup.html" class="btn">Join Now</a> | <a href="/Harmony-Hub/HTML/signup.html" class="btn">Login</a></p>
+    </div>
+
+    <!--footer part-->
+    <footer>
+        <div class="container">
+            <!-- About and Other Links -->
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#help">Help</a></li>
+                    <li><a href="#privacy">Privacy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Social Media Icons -->
+            <div class="social-media">
+                <a href="#"><img src="/Harmony-Hub/src/Images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="/Harmony-Hub/src/Images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="/Harmony-Hub/src/Images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="/Harmony-Hub/src/Images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+    
+            <!-- Footer Information -->
+            <p class="footer-info">© 2024 HarmonyHub. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

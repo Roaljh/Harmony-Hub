@@ -52,21 +52,6 @@ header:hover{
     margin-bottom: 10px;
 }
 
-.matemasie-regular {
-    font-family: "Matemasie", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.8em;
-}
-
-.dancing-script-roaljh {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.3em;
-}  
-
 .logo-text-inline .logo img{
     height: 150px;
     width: auto;

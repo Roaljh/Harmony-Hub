@@ -1,6 +1,6 @@
 document.querySelectorAll('.artwork-item').forEach(item => {
     item.addEventListener('click', function() {
-        window.location.href = 'login.html';
+        window.location.href = 'signup.html';
     });
 });
 

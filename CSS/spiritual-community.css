@@ -1,6 +1,6 @@
 /*community content section*/
 .hero-section {
-    background-image: url('Spiritual/spiritual-image.webp'); /* Replace with actual image path */
+    background-image: url('/Harmony-Hub/src/Spiritual/spiritual-image.webp'); /* Replace with actual image path */
     background-size: cover;
     background-position: center;
     color: white;

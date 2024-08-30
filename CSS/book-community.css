@@ -1,6 +1,6 @@
 /*community content section*/
 .hero-section {
-    background-image: url('Books/book-hero-section.webp');
+    background-image: url('/Harmony-Hub/src/Books/book-hero-section.webp');
     background-size: cover;
     background-position: center;
     color: white;

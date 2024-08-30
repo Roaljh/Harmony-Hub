@@ -8,7 +8,7 @@
   
 /*community content section*/
 .hero-section {
-    background-image: url('Food/food-community-img.webp');
+    background-image: url('/Harmony-Hub/src/Food/food-community-img.webp');
     background-size: cover;
     background-position: center;
     color: white;

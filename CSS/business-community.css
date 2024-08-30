@@ -1,6 +1,6 @@
 /*community content section*/
 .hero-section {
-    background-image: url('business/business-hero-section.jpg'); /* Replace with actual image path */
+    background-image: url('/Harmony-Hub/src/business/business-hero-section.jpg'); /* Replace with actual image path */
     background-size: cover;
     background-position: center;
     color: white;

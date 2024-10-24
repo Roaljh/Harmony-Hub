@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual Community - HarmonyHub</title>
+    <link rel="stylesheet" href="/CSS/spiritual-community.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/body.css">
+    <link rel="stylesheet" href="/CSS/fonts.css">
+    <link rel="stylesheet" href="/CSS/fixed-footer.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section (Reused from the main page) -->
+    {{>header}}
+
+    <section class="hero-section">
+        <div class="container">
+            <h1>{{name}}</h1>
+            <p>{{description}}</p>
+        </div>
+    </section>
+    
+    <section class="teachings-section">
+        <div class="container">
+            <h2>Featured Teachings and Quotes</h2>
+            <div class="teachings-grid">
+                <div class="teaching-item">
+                    <img src="/src/Spiritual/buddha.jpg" alt="Image-1">
+                    <p>"The mind is everything. What you think, you become."</p>
+                    <p>- Buddha</p>
+                </div>
+                <div class="teaching-item">
+                    <img src="/src/Spiritual/deepak-chopra.webp" alt="Image-2">
+                    <p>"In the midst of movement and chaos, keep stillness inside of you." </p>
+                    <p>- Deepak Chopra</p>
+                </div>
+                <div class="teaching-item">
+                    <img src="/src/Spiritual/anonymous2.jpg" alt="Image-3">
+                    <p>"Let your faith be bigger than your fear." </p>
+                    <p>- Anonymous</p>
+                </div>
+                <!-- Add more teachings or quotes as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section class="meditation-section">
+        <div class="container">
+            <h2>Mindfulness and Meditation</h2>
+            <div class="meditation-grid">
+                <div class="meditation-item">
+                    <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <h4>Guided Meditation for Inner Peace</h4>
+                </div>
+                <div class="meditation-item">
+                    <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <h4>Mindfulness Breathing Exercise</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="events-section">
+        <div class="container">
+            <h2>Community Events and Discussions</h2>
+            <div class="events-grid">
+                <div class="event-item">
+                    <h4>Online Meditation Retreat</h4>
+                    <p>Join us for a 3-day online retreat focused on mindfulness and meditation.</p>
+                    <a href="/signup" class="btn">Learn More</a>
+                </div>
+                <div class="event-item">
+                    <h4>Discussion: The Role of Faith in Daily Life</h4>
+                    <p>Join the conversation with others who share your spiritual interests.</p>
+                    <a href="/signup" class="btn">Join Discussion</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="religious-discussions-section">
+        <div class="container">
+            <h2>Explore Religious Discussions</h2>
+            <div class="discussions-grid">
+                <div class="discussion-item">
+                    <h4>
+                        Christianity
+                        <img src="/src/Images/cross.png" alt="Christianity">
+                    </h4>
+                    <p>Recent Discussion: The Role of Prayer in Modern Life</p>
+                    <a href="/signup" class="btn">Join Discussion</a>
+                </div>
+                <div class="discussion-item">
+                    <h4>
+                        Islam
+                        <img src="/src/Images/islam.png" alt="Islam">
+                    </h4>
+                    <p>Recent Discussion: Understanding the Five Pillars</p>
+                    <a href="/signup" class="btn">Join Discussion</a>
+                </div>
+                <div class="discussion-item">
+                    <h4>
+                        Hinduism
+                        <img src="/src/Images/om.png" alt="Hinduism">
+                    </h4>
+                    <p>Recent Discussion: The Significance of Yoga</p>
+                    <a href="/signup" class="btn">Join Discussion</a>
+                </div>
+                <div class="discussion-item">
+                    <h4>
+                        Buddhism
+                        <img src="/src/Images/buddhism.png" alt="Buddhism">
+                    </h4>
+                    <p>Recent Discussion: The Path to Enlightenment</p>
+                    <a href="/signup" class="btn">Join Discussion</a>
+                </div>
+                <!-- Add more discussion items for other religions or spiritual practices -->
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="signup-cta-section">
+        <div class="container">
+            <p>Join our spiritual community and deepen your spiritual journey. <a href="/signup" class="btn">Sign up now</a> to explore more!</p>
+        </div>
+    </section>
+    
+
+    <!--fixed footer part-->
+    <div class="fixed-footer">
+        <p>Join HarmonyHub to explore more...! <a href="/signup" class="btn">Join Now</a> | <a href="/login" class="btn">Login</a></p>
+    </div>
+
+    <!--footer part-->
+    {{>footer}}
+</body>
+</html>

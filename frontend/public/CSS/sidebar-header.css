@@ -1,0 +1,324 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* General Container for Header */
+
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    height: 60px; /* Reduced header height */
+    border-bottom: 1 solid #333;
+}
+
+.links-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    margin-bottom: 80px;
+    width: cover;
+}
+
+.links-container.fixed {
+    position: fixed;
+    top: 60px; /* Adjust this based on your header's height */
+    width: 100%;
+    z-index: 1000; /* Make sure it's on top of other content but below the top fixed header */
+    background-color: #f5f5f5; /* Optional: Add a background color for visibility */
+     /* Optional: Adds a line to distinguish the header */
+}
+
+
+.links {
+    margin-top: 30px;
+    background: black; /* Yellow */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Text size */ /* Aligns the image and text inside the button */
+    align-items: center;
+    gap: 8px; /* Adds space between the icon and text */
+    transition: background 0.3s ease; /* Smooth transition for hover */
+    margin-right: 20px;
+    width: 100px; 
+    margin-bottom: 30px;
+}
+
+.links:hover {
+    background: linear-gradient(135deg, 
+                rgba(66, 201, 255, 1),  /* Brighter Light Blue */
+                rgba(255, 196, 87, 1)); /* Brighter Yellow */
+}
+
+.notification {
+    padding-left: 20px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    /* margin-left: 90px; */
+}
+
+.search-bar {
+    width: 300px; /* Adjusted width */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.chat {
+    padding-left: 20px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    /* margin-left: 440px; */
+    margin-right: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-right: 50px; */
+}
+
+.logo img {
+    vertical-align: middle;
+    height: 50px;
+}
+
+/* Container for the create button in the header */
+.create-btn-container {
+    margin-left: auto; /* Push the button to the right side of the header */
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Styling the create button */
+.create-btn {
+    background: linear-gradient(135deg, 
+                rgba(66, 201, 255, 0.9),  /* Light Blue */
+                rgba(255, 196, 87, 0.9)); /* Yellow */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Text size */
+    display: flex; /* Aligns the image and text inside the button */
+    align-items: center;
+    gap: 8px; /* Adds space between the icon and text */
+    transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+.create-btn:hover {
+    background: linear-gradient(135deg, 
+                rgba(66, 201, 255, 1),  /* Brighter Light Blue */
+                rgba(255, 196, 87, 1)); /* Brighter Yellow */
+}
+
+/* Styling for the image inside the button */
+.button-icon {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: white;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%; /* Adjust as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  cursor: pointer;
+}
+
+ul.list-group {
+  padding: 0;
+}
+
+ul.list-group .list-group-item {
+  list-style: none;
+  margin: 10px 0;
+}
+
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: 0px; /* Sidebar is hidden by default */
+    top: 60px; /* Positioning below the header */
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    transition: left 0.3s ease; /* Smooth transition */
+    z-index: 999;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    padding: 15px 20px;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+    background: linear-gradient(135deg, 
+                rgba(66, 201, 255, 0.9),  /* Light Blue */
+                rgba(255, 196, 87, 0.9));
+    border-radius: 5px; 
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 22px;
+}
+
+.sidebar nav ul li span {
+    white-space: nowrap;
+    opacity: 1; /* Fully visible text */
+    transition: opacity 0.3s ease; /* Smooth transition for text visibility */
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 300px;
+    margin-top: 100px; /* To account for the fixed header */
+    padding: 20px;
+    max-width: 800px;
+}
+
+.main-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.community-content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.content-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Explore Section */
+.explore-communities {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.explore-communities div {
+    display: block;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.explore-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .community-content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        width: 180px;
+    }
+
+    .main-content {
+        margin-left: 190px;
+    }
+}

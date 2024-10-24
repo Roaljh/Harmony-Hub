@@ -1,0 +1,123 @@
+.about {
+    background-color: rgb(22, 22, 58);
+}
+.intro {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.mission-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mission-section h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.mission-section p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.why-harmonyhub-section {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.why-harmonyhub-section h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.why-harmonyhub-section ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.why-harmonyhub-section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.why-harmonyhub-section ul li strong {
+    color: #fff;
+}
+
+.values-section {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.values-section h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.values-section ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.values-section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.values-section ul li strong {
+    color: #fff;
+}
+
+/* Join Us Section */
+.join-us-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.join-us-section h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.join-us-section p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #48a2cb; /* Green background */
+    color: white; /* White text */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 15px;
+}
+
+.join-button:hover {
+    background-color: #3d83a3; /* Green background */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+

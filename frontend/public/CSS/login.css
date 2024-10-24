@@ -1,0 +1,193 @@
+/* Login Section */
+.login-section {
+    padding: 30px 0;
+    background-color: #fff;
+    text-align: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+}
+
+/* Signup Section */
+.signup-section {
+    padding: 30px 0;
+    background-color: #fff;
+    text-align: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.signup-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-prompt {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.signup-prompt a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-prompt a:hover {
+    color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #ffc107;
+}
+
+footer .social-media {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-media a img {
+    max-height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+footer .social-media a:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+footer p a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #e0a800;
+}
+
+@media (max-width: 768px) {
+    footer nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-logo {
+        max-height: 80px;
+    }
+
+    footer .social-media a img {
+        max-height: 30px;
+    }
+}

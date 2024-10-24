@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/CSS/art-community.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/body.css">
+    <link rel="stylesheet" href="/CSS/fonts.css">
+    <link rel="stylesheet" href="/CSS/fixed-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+</head>
+<body>
+    {{>header}}
+
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="pacifico-regular">{{name}}</h1>
+            <p>{{description}}</p>
+        </div>
+    </section>
+
+    <section class="explore-content">
+        <div class="container">
+            <div class="genre-tags">
+                <span class="genre-tag" onclick="showGenre('digital-art')">Digital Art</span>
+                <span class="genre-tag" onclick="showGenre('painting')">Painting</span>
+                <span class="genre-tag" onclick="showGenre('sculpture')">Sculpture</span>
+                <span class="genre-tag" onclick="showGenre('abstract-art')">Abstract Art</span>
+                <span class="genre-tag" onclick="showGenre('impressionism')">Impressionism</span>
+                <span class="genre-tag" onclick="showGenre('surrealism')">Surrelism</span>
+                <span class="genre-tag" onclick="showGenre('cubism')">Cubism</span>
+                <!-- Add more genres as needed -->
+            </div>
+        </div>
+
+        {{#each genres}}
+        <div id="{{name}}" class="artwork-grid" style="{{#if @first}}display: flex;{{else}}display: none;{{/if}}">
+            {{#each artworks}}
+            <div class="artwork-item">
+                <img src="{{image}}" alt="{{title}}">
+                <div class="artwork-hover">
+                    <div class="art-details">
+                        <h4 class="artwork-title">{{title}}</h4>
+                    </div>
+                    <div class="artist-details">
+                        <h4 class="name">
+                            <img src="{{artistImage}}" alt="{{artist}}" class="artist-avatar">
+                            {{artist}}
+                        </h4>
+                        <div class="likes">
+                            <p>❤️ {{likes}} Likes</p>
+                            <p>💬 {{comments}} Comments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        {{/each}}
+
+        <div class="see-more">
+            <a href="/signup" class="btn">See More</a>
+        </div>
+
+    </section>
+    
+    <div class="fixed-footer">
+        <p>Join HarmonyHub to explore more...! <a href="/signup" class="btn">Join Now</a> | <a href="/login" class="btn">Login</a></p>
+    </div>
+
+    {{>footer}}    
+    <script src="/JS/art-community.js"></script>
+</body>
+</html>

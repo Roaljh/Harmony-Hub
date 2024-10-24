@@ -1,0 +1,224 @@
+.creator-card .nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+  
+/*community content section*/
+.hero-section {
+    background-image: url('/src/Food/food-community-img.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 130px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    background-color: rgba(94, 127, 137, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    background-color: rgba(94, 127, 137, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* Food Grid */
+/* Food Grid Section */
+.food-grid-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.food-grid-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Food Grid */
+.food-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.food-item {
+    position: relative;
+    width: calc(33.333% - 20px);
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.food-hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    
+}
+
+.food-item:hover .food-hover {
+    opacity: 1;
+    transform: translateY(-10%);
+}
+
+
+/* Top Creators */
+/* Top Creators Section */
+.top-creators-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.top-creators-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.top-creators {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.creator-card {
+    width: calc(33.333% - 20px);
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.creator-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1%);
+}
+
+.creator-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.creator-card h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.creator-card p {
+    color: #666;
+}
+
+
+
+/* Community Highlights Section */
+.community-highlights-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.community-highlights-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.community-highlights {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.highlight-item {
+    width: calc(50% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.highlight-item p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.highlight-item .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.highlight-item .btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Signup CTA Section */
+.signup-cta-section {
+    padding: 40px 0;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.signup-cta-section p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.signup-cta-section .btn {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.signup-cta-section .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+

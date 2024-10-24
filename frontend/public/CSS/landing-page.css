@@ -1,0 +1,438 @@
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the contents including the logo */
+    justify-content: center;
+    text-align: center;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.cta-buttons .btn, .cta-buttons .btn-secondary{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 180px;
+}
+
+.cta-buttons .btn{
+    background-color: #007bff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    background-color: rgb(22, 22, 58);
+    color: #f0f8ff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/*Carousal*/
+/* Carousel Container */
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 1s ease-in-out; /*transition happens from her */
+    width: 50%; /* Five slides, so 500% to show one at a time */
+}
+
+/* Carousel Slides */
+.carousel-slide {
+    min-width: 100%; /* Each slide takes full width of the container */
+    display: flex; /* Arrange image and text side by side */
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+/* Slide Content */
+.slide-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.slide-content img {
+    width: 40%; /* Adjust image size to take less space */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.caption {
+    width: 55%; /* Adjust text width to use available space */
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.caption h5 {
+    font-size: 2em; /*larger text */
+    margin-bottom: 10px;
+}
+
+.caption p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.caption .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.caption .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Carousel Controls */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 50%;
+    user-select: none;
+    z-index: 1000;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Transition for looping */
+.carousel-container {
+    transition: transform 1s ease-in-out;
+}
+
+/* Creator Benefits Section with Images */
+/* Creator Highlight Section */
+.creator-highlight {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.creator-highlight h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.creator-highlight p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.feature-item {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Centered Call to Action Button */
+.creator-highlight .cta-buttons {
+    position: relative;
+    bottom: -30px;
+    left: 11%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.creator-highlight .btn {
+    padding: 15px 30px;
+    background-color: #FFD700;
+    color: #333;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.creator-highlight .btn:hover {
+    background-color: #FFC700;
+}
+
+
+/* Testimonials Section */
+/* Testimonial Carousel */
+#testimonial-carousel {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+#testimonial-carousel .carousel-container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100%; /* Adjust based on the number of slides */
+}
+
+#testimonial-carousel .carousel-slide {
+    min-width: 33.3333%; /* Show 3 slides at a time */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.testimonial-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    color: #555;
+    margin: 0;
+}
+
+.testimonial-user {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rating {
+    margin-top: 15px;
+    width: 100px;
+    height: auto;
+}
+
+/* Carousel Dots */
+.carousel-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-dots .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-dots .dot.active {
+    background-color: #717171;
+}
+
+
+/* Call to Action Section */
+.cta-section {
+    background-color: rgb(22, 22, 58);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cta-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-buttons{
+    display: inline-block;
+    text-align: center;
+}
+
+.cta-buttons .btn {
+    margin: 0 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.cta-buttons .btn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .cta-buttons .btn {
+        display: block;       /* Stack buttons vertically on smaller screens */
+        margin: 10px auto;    /* Center each button with vertical margin */
+        width: 80%;           /* Make buttons take up more space on small screens */
+    }
+}
+/* Footer */
+footer {
+    background-color: #111;
+    color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #ffc107;
+}
+
+footer .social-media {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-media a img {
+    max-height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+footer .social-media a:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+footer p a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #e0a800;
+}
+
+@media (max-width: 768px) {
+    footer nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-logo {
+        max-height: 80px;
+    }
+
+    footer .social-media a img {
+        max-height: 30px;
+    }
+}

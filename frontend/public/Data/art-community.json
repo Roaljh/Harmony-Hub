@@ -1,0 +1,375 @@
+{
+    "genres": [
+        {
+            "name": "digital-art",
+            "artworks": [
+                {
+                    "title": "Digi Boy",
+                    "image": "/src/Art/digi-boy.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Digi Spiral",
+                    "image": "/src/Art/digi-spiral.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Digi Thought",
+                    "image": "/src/Art/digi-thought.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Digi World",
+                    "image": "/src/Art/digi-world.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Fantasy World",
+                    "image": "/src/Art/fantasy-world.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Nature",
+                    "image": "/src/Art/nature.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        },
+        {
+            "name": "painting",
+            "artworks": [
+                {
+                    "title": "CountrySide",
+                    "image": "/src/Art/countryside.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Forest",
+                    "image": "/src/Art/Forest.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Mountains",
+                    "image": "/src/Art/Mountains.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Rainy-Street",
+                    "image": "/src/Art/Rainy-Street.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Sea-Shore",
+                    "image": "/src/Art/Sea-Shore.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Sunflower",
+                    "image": "/src/Art/Sunflower.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        },
+        {
+            "name": "sculpture",
+            "artworks": [
+                {
+                    "title": "Abstract-Sculp",
+                    "image": "/src/Art/Abstract-Sculpt.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Glass-Dragon",
+                    "image": "/src/Art/Glass-Dragon.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Greek-Godess",
+                    "image": "/src/Art/Greek-Godess.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Metal-Curves",
+                    "image": "/src/Art/Metal-Curves.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Pharaoh",
+                    "image": "/src/Art/Pharaoh.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Wooden-Horse",
+                    "image": "/src/Art/Wooden-Horse.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        },
+        {
+            "name": "abstract-art",
+            "artworks": [
+                {
+                    "title": "Angular-Lines",
+                    "image": "/src/Art/Angular-Lines.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Chaotic-Slashes",
+                    "image": "/src/Art/Chaotic-Slashes.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Geometric-Shapes",
+                    "image": "/src/Art/Geometric-Shapes.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Monochromatic",
+                    "image": "/src/Art/Monochromatic.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Muted-Tones",
+                    "image": "/src/Art/Muted-Tones.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Organic-Shapes",
+                    "image": "/src/Art/Organic-Shapes.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        },        
+        {
+            "name": "impressionism",
+            "artworks": [
+                {
+                    "title": "Bloom",
+                    "image": "/src/Art/imp-bloom.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Countryside",
+                    "image": "/src/Art/imp-countryside.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Rainy-Street",
+                    "image": "/src/Art/imp-rainystreet.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Stalls",
+                    "image": "/src/Art/imp-stalls.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Sunflowers",
+                    "image": "/src/Art/imp-sunflowers.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Sunset",
+                    "image": "/src/Art/imp-sunset.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        },
+        {
+            "name": "surrealism",
+            "artworks": [
+                {
+                    "title": "Cloud-Bubbles",
+                    "image": "/src/Art/su-cloud-bubbles.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Floating-Island",
+                    "image": "/src/Art/su-floating-island.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Giant-Fish",
+                    "image": "/src/Art/su-giant-fish.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Melting-Clock",
+                    "image": "/src/Art/su-melting-clock.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Rainbow",
+                    "image": "/src/Art/su-rainbow.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Staircase",
+                    "image": "/src/Art/su-staircase.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        },
+        {
+            "name": "cubism",
+            "artworks": [
+                {
+                    "title": "Cityscapes",
+                    "image": "/src/Art/cu-cityscapes.webp",
+                    "artist": "Jane Doe",
+                    "artistImage": "/src/Images/user1.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Face",
+                    "image": "/src/Art/cu-Face.webp",
+                    "artist": "John Smith",
+                    "artistImage": "/src/Images/user2.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Fruit & Glass",
+                    "image": "/src/Art/cu-fruitNglass.webp",
+                    "artist": "Micheal Lee",
+                    "artistImage": "/src/Images/user3.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Life with Guitar",
+                    "image": "/src/Art/cu-life-with-guitar.webp",
+                    "artist": "Emily Johnson",
+                    "artistImage": "/src/Images/user4.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Musical",
+                    "image": "/src/Art/cu-musical.webp",
+                    "artist": "Gabriel",
+                    "artistImage": "/src/Images/user5.webp",
+                    "likes": 150,
+                    "comments": 20
+                },
+                {
+                    "title": "Scrappers",
+                    "image": "/src/Art/cu-scrappers.webp",
+                    "artist": "Michelle",
+                    "artistImage": "/src/Images/user6.webp",
+                    "likes": 150,
+                    "comments": 20
+                }
+            ]
+        }        
+    ]
+}

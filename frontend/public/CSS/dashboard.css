@@ -1,0 +1,184 @@
+.hero-section {
+    background-size: cover;
+    margin-left: 250px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 265px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    background-color: rgba(94, 127, 137, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    background-color: rgba(94, 127, 137, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.join-button { /* Push the button to the right side of the header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.join-btn {
+    background: linear-gradient(135deg, 
+        rgba(0, 51, 102, 1),     /* Dark Blue */
+        rgba(255, 255, 153, 1));
+
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 15px 30px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Text size */
+    display: flex; /* Aligns the image and text inside the button */
+    align-items: center;
+    gap: 8px; /* Adds space between the icon and text */
+    transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+.join-btn:hover {
+    background: linear-gradient(135deg, 
+        rgba(0, 76, 153, 1),     /* Slightly lighter blue */
+        rgba(255, 255, 204, 1));
+}
+
+.layout-wrapper {
+    display: flex;
+    width: 100%; /* Full width */
+    min-height: 100vh; /* Ensure full viewport height */
+    transition: all 0.3s ease;
+}
+/* Main content area styling */
+.main-content {
+    flex-grow: 1; /* Expands to take remaining space */
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh; /* Full height */
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+/* Content grid section */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    transition: all 0.3s ease;
+    width: 100%; /* Grid takes full width */
+}
+
+/* Content items */
+.content-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 100px;
+    transition: all 0.3s ease;
+}
+
+.carousel {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 1s ease-in-out; /*transition happens from her */
+    width: 100%;
+    overflow: hidden; /* Five slides, so 500% to show one at a time */
+}
+
+/* Carousel Slides */
+.carousel-slide {
+    min-width: 50%; /* Each slide takes full width of the container */
+    display: flex; /* Arrange image and text side by side */
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+/* Slide Content */
+.slide-content {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.slide-content img {
+    width: 40%; /* Adjust image size to take less space */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.caption {
+    width: 55%; /* Adjust text width to use available space */
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.caption h5 {
+    font-size: 2em; /*larger text */
+    margin-bottom: 10px;
+}
+
+.caption p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.caption .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.caption .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Carousel Controls */
+
+/* Transition for looping */
+.carousel-container {
+    transition: transform 1s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto; /* Sidebar becomes a row for small screens */
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr; /* Single column for mobile */
+    }
+}

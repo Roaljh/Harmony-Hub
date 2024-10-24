@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - HarmonyHub</title>
+    <link rel="stylesheet" href="/CSS/sidebar-header.css">
+    <link rel="stylesheet" href="/CSS/dashboard.css">
+    <link rel="stylesheet" href="/CSS/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <h1 class="matemasie-regular">
+                Harmony Hub
+                <img src="/src/Images/Logo-removebg-preview.png" alt="logo">
+            </h1>
+        </div>
+        
+        <div>
+            <input type="text" placeholder="Search content or communities" class="search-bar">
+        </div>
+        <div class="notification">
+            <a href="#"><img src="/src/Images/bell.png" alt="Logout" class="icon"></a>
+        </div>
+        <div class="chat">
+            <a href="#"><img src="/src/Images/email.png" alt="Notifications" class="icon"></a>
+        </div>
+        <div class="profile"></div>
+            <a href="#"><img src="/src/Images/profile-user.png" alt="profile" class="icon"></a>
+        </div>
+        
+        <!-- Create Button -->
+        <button id="openModalBtn" class="create-btn">Create</button>
+        <div id="customModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModalBtn" class="close">&times;</span>
+                <h2>Create New Content</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><button class="btn btn-outline-primary">Post</button></li>
+                    <li class="list-group-item"><button class="btn btn-outline-secondary">Blog</button></li>
+                    <li class="list-group-item"><button class="btn btn-outline-success">Reel</button></li>
+                    <li class="list-group-item"><button class="btn btn-outline-info">Poll</button></li>
+                </ul>
+            </div>
+        </div>
+
+            
+    </header>
+    
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#"><img src="/src/Images/home2.png" alt="Home" class="icon"><span>Home</span></a></li>
+                <li><a href="#"><img src="/src/Images/group-users.png" alt="Communities" class="icon"><span>Communities</span></a></li>
+                <li><a href="#"><img src="/src/Images/connect.png" alt="Connect" class="icon"><span>My Groups</span></a></li>
+                <li><a href="#"><img src="/src/Images/trending-topic.png" alt="Trending" class="icon"><span>Trending</span></a></li>
+                <li><a href="#"><img src="/src/Images/color-palette.png" alt="Creators" class="icon"><span>Creators</span></a></li>
+                <li><a href="#"><img src="/src/Images/settings.png" alt="Settings" class="icon"><span>Settings</span></a></li>
+                <li><a href="#"><img src="/src/Images/help-web-button.png" alt="Help" class="icon"><span>Help</span></a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <section id="community-carousel" class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <img src="/src/Images/Foodies.webp" alt="Foodies">
+                        <div class="caption">
+                            <h5>Foodies</h5>
+                            <p>Discover the best food experiences.</p>
+                            <a href="/food-community" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <img src="/src/Images/Artist.webp" alt="Art">
+                        <div class="caption">
+                            <h5>Art</h5>
+                            <p>Explore the creative world of artists.</p>
+                            <a href="/art-community" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <img src="/src/Images/Religious_Spiritual.webp" alt="Spiritual">
+                        <div class="caption">
+                            <h5>Spiritual</h5>
+                            <p>Connect with spiritual and religious communities.</p>
+                            <a href="/spiritual-community" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <img src="/src/Images/Bookworms.webp" alt="Readers">
+                        <div class="caption">
+                            <h5>Readers</h5>
+                            <p>Dive into the world of books.</p>
+                            <a href="/book-community" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <img src="/src/Images/Entrepreneurs.webp" alt="Entrepreneur">
+                        <div class="caption">
+                            <h5>Entrepreneur</h5>
+                            <p>Connect with entrepreneurs and business minds.</p>
+                            <a href="/business-community" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="/JS/dashboard.js"></script>
+    <script src="/JS/dashboard-button.js"></script>
+</body>
+</html>
